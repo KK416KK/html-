@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <survlet-name>SubmitServlet</survlet-name>
+
+        <survlet-class>com.example.SubmitSurvlet</survlet-class>
+    </servlet>
+    <servlet-mapping>
+        <survlet-name>SubmitServlet</survlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+</web-app>

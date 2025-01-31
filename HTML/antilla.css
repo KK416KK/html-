@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#titles{
+    color: #ff0000;
+    font-size: 40px;
+    text-align: center;
+}
+
+#headnav{
+    background-color: #ffffff;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}
+ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.heli{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: solid 3px black;
+    border-right: solid 3px black;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#main{
+    width: 100%;
+    height: 400px;
+    background-image: none;
+    background-color: #ff0000;
+    padding-top: 20px;
+}
+
+#pickup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.kizi{
+    width: 100%;
+    display: flex;
+    border-top: solid 2px black;
+}
+
+.ima{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
